@@ -1,0 +1,12 @@
+{
+  "_note": "tapFrac are normalized SCREEN coords computed from the real hierarchy, not guessed. World taps (the three sectors) need no correction because the camera fills the screen: offset = laneWidth / (2 * halfWidth) = 0.8/3 = 0.2667, and the hit line sits at (halfH - HIT_Y)/(2*halfH) = 0.81 - both independent of aspect. UI taps DO need the letterbox correction: the MAIN canvas expands to 1242x2760 on a 1080x2400 device while AspecterSA is pinned to 1242x2688, so a panel fraction u lands at (36 + u*2688)/2760 of the screen from the bottom.",
+  "steps": [
+    { "waitLoader": true, "wait": 4, "shot": "01_menu" },
+    { "tapFrac": [0.5, 0.6948], "label": "PLAY", "waitLoader": true, "wait": 8, "shot": "02_ascent_start" },
+    { "wait": 6, "shot": "03_pulses_falling" },
+    { "tapFrac": [0.5, 0.81], "label": "SECTOR_CENTRE", "wait": 3, "shot": "04_sector_centre" },
+    { "tapFrac": [0.2333, 0.81], "label": "SECTOR_LEFT", "wait": 3, "shot": "05_sector_left" },
+    { "tapFrac": [0.7667, 0.81], "label": "SECTOR_RIGHT", "wait": 3, "shot": "06_sector_right" },
+    { "tapFrac": [0.9227, 0.0536], "label": "PAUSE", "wait": 3, "shot": "07_hold_position" }
+  ]
+}
