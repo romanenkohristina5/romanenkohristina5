@@ -1,0 +1,154 @@
+{
+  "assets": [
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "Vertical 9:16 mobile game background, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading: a tall industrial energy shaft seen from inside, violet and cyan light strips running up the walls, distant glowing landing platforms far above, deep indigo darkness, the interesting detail in the central safe area, calm uncluttered top and bottom, no text, no UI elements"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "Vertical 9:16 mobile game background, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading: the same industrial energy shaft, low contrast, softly lit violet walls, faint cyan guide lines, muted and uncluttered so gameplay reads clearly on top, no text, no UI elements"
+    },
+    {
+      "name": "sprite_elevator_car",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_elevator_car.png",
+      "orientation": "front view, nose UP",
+      "prompt": "One single cargo elevator car, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, front view with the nose pointing UP, violet metal body with a cyan glowing core window and golden edge trim, single subject centred and fully in frame, clear silhouette, no text, no other objects"
+    },
+    {
+      "name": "sprite_note_spark",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_note_spark.png",
+      "orientation": "radially symmetric, no facing",
+      "prompt": "One single energy spark token, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, a rounded cyan plasma core inside a violet ring, radially symmetric, single subject centred and fully in frame, clear silhouette, no text, no other objects"
+    },
+    {
+      "name": "sprite_note_beam_head",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_note_beam_head.png",
+      "orientation": "vertical, leading edge DOWN",
+      "prompt": "One single energy beam head cap, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, a rounded golden plasma cap with the bright leading edge pointing DOWN and the beam continuing off the TOP edge, single subject centred and fully in frame, no text, no other objects"
+    },
+    {
+      "name": "sprite_note_beam_body",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_note_beam_body.png",
+      "orientation": "vertical, tileable top to bottom",
+      "prompt": "One single seamless vertical energy beam segment, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, the beam enters at the top edge and leaves at the bottom edge, golden core with a violet outer glow, identical at both ends so copies stack, single subject centred, no text, no other objects"
+    },
+    {
+      "name": "sprite_note_beam_tail",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_note_beam_tail.png",
+      "orientation": "vertical, trailing edge UP",
+      "prompt": "One single energy beam tail cap, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, a tapering golden plasma tail whose fading edge points UP and whose beam continues off the BOTTOM edge, single subject centred and fully in frame, no text, no other objects"
+    },
+    {
+      "name": "sprite_hit_ring",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_hit_ring.png",
+      "orientation": "radially symmetric, no facing",
+      "prompt": "One single thin glowing pulse ring, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, a cyan circular outline with a soft violet halo and a hollow transparent centre, radially symmetric, single subject centred and fully in frame, no text, no other objects"
+    },
+    {
+      "name": "sprite_burst_perfect",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_burst_perfect.png",
+      "orientation": "radially symmetric, no facing",
+      "prompt": "One single radial energy burst, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, golden starburst rays spreading evenly from a bright centre, radially symmetric, single subject centred and fully in frame, no text, no other objects"
+    },
+    {
+      "name": "sprite_sector_pad",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_sector_pad.png",
+      "orientation": "horizontal plate, symmetric",
+      "prompt": "One single wide landing pad plate, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, a dark indigo rounded rectangle plate with a bright violet edge strip and even thick borders on all four sides so it can be stretched, single subject centred and fully in frame, no text, no other objects"
+    },
+    {
+      "name": "sprite_deck_plate",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_deck_plate.png",
+      "orientation": "horizontal plate, symmetric",
+      "prompt": "One single wide elevator deck plate, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, a heavy dark violet metal slab with golden corner brackets and even thick borders on all four sides so it can be stretched, single subject centred and fully in frame, no text, no other objects"
+    },
+    {
+      "name": "sprite_floor_marker",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_floor_marker.png",
+      "orientation": "horizontal bar, symmetric",
+      "prompt": "One single thin horizontal floor light bar, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, a cyan glowing strip with small violet end caps and even borders on the left and right so it can be stretched horizontally, single subject centred and fully in frame, no text, no other objects"
+    },
+    {
+      "name": "sprite_shaft_rail",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_shaft_rail.png",
+      "orientation": "vertical rail, tileable top to bottom",
+      "prompt": "One single vertical neon guide rail segment, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, the rail enters at the top edge and leaves at the bottom edge, violet metal channel with a thin cyan light line down the middle, identical at both ends so copies stack, single subject centred, no text, no other objects"
+    },
+    {
+      "name": "sprite_energy_track",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_energy_track.png",
+      "orientation": "horizontal bar, symmetric",
+      "prompt": "One single empty horizontal gauge housing, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, a dark indigo rounded capsule with a violet rim and even thick borders on all four sides so it can be stretched, hollow transparent inside, single subject centred and fully in frame, no text, no other objects"
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "orientation": "diagonally symmetric, no facing",
+      "prompt": "One single bold cross close mark, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, two thick cream diagonal bars forming an X with a soft violet glow, symmetric, single subject centred and fully in frame, no text, no other objects"
+    },
+    {
+      "name": "sprite_icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_back.png",
+      "orientation": "side view, pointing LEFT",
+      "prompt": "One single thick chevron arrow, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, cream coloured with a violet glow, clearly pointing LEFT, single subject centred and fully in frame, no text, no other objects"
+    },
+    {
+      "name": "sprite_icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_pause.png",
+      "orientation": "vertically symmetric, no facing",
+      "prompt": "One single pause mark, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, two thick vertical cream bars side by side with a violet glow, symmetric, single subject centred and fully in frame, no text, no other objects"
+    },
+    {
+      "name": "sprite_mark_pulse",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_mark_pulse.png",
+      "orientation": "radially symmetric, no facing",
+      "prompt": "One single abstract emblem, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, three concentric glowing rings in violet cyan and gold with an upward pointing cream chevron inside, radially symmetric, single subject centred and fully in frame, absolutely no letters, no words, no text, no other objects"
+    },
+    {
+      "name": "sprite_lane_divider",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_lane_divider.png",
+      "orientation": "vertical line, tileable top to bottom",
+      "prompt": "One single faint vertical divider line, cel-shaded toon neon game art, bold clean linework, glowing rim light, flat saturated shading, the line enters at the top edge and leaves at the bottom edge, thin dim violet with a soft glow, identical at both ends so copies stack, single subject centred, no text, no other objects"
+    }
+  ]
+}
